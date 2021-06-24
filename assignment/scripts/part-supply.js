@@ -64,8 +64,6 @@ for( parts of supplyChanges){
   }
 }
 
-
-
 // 8. Rewrite the `for` loop from #6 as a `while` loop.
 console.log('8. Showing supplyChanges with "while" loop');
 
