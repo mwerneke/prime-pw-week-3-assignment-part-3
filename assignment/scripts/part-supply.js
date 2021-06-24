@@ -69,5 +69,12 @@ for( parts of supplyChanges){
 // 8. Rewrite the `for` loop from #6 as a `while` loop.
 console.log('8. Showing supplyChanges with "while" loop');
 
+var i = 0
+
+while( i < supplyChanges.length ){
+  console.log('Total Parts', + supplyChanges [ i ]);
+  i++;
+}
+
 // 9. Write a loop to determine the total number of parts available by
 //    adding up all the numbers in the 'supplyChanges' Array
